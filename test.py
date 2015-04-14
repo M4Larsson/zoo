@@ -4,7 +4,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
 	author='Dimitris'
-	name='new world'
+	name='from the Zoo!'
 	return render_template('index.html', author=author, name=name)
 	
 @app.route('/signup', methods = ['POST'])
