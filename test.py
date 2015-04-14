@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-	author='Dimitris'
+	author='Group 38'
 	name='from the Zoo!'
 	return render_template('index.html', author=author, name=name)
 
